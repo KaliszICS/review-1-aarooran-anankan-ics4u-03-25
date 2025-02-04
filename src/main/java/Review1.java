@@ -1,8 +1,7 @@
-public static void main {
 	public class Review1 {
 
 		public static void q1() {
-			System.out.println("There once was a man from St. Ives");
+			System.out.println("There once was a man from St. Ives.");
 		}
 
 		public static void q2() {
@@ -13,16 +12,24 @@ public static void main {
 		}
 
 		public static void q3() {
-			//Write question 3 code here
+			System.out.println("Hello\nHello again");
 		}
 
 		public static void q4() {
-			//Write question 4 code here
+			boolean fact;
+			fact = true;
+			System.out.println(fact);
+
 		}
 
 		public static void q5() {
-			//Write question 5 code here
+			String One;
+			One = "Hello";
+			String Two;
+			Two = "World";
+			System.out.print(One);
+			//System.out.print(" ");
+			System.out.println(" " + Two);
 		}
 
 	}
-}
